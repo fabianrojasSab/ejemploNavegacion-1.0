@@ -1,0 +1,19 @@
+.contenedor{
+	width: 100vw;
+	height: 92vh;
+	background: #f0f0f0;
+}	
+
+#fila1{
+ background: #593B35;
+
+}
+
+#fila2{
+ background: #7AE854;
+}
+
+#fila3{
+ background: #C760F7;
+ height: 40vh;
+}

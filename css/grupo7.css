@@ -1,0 +1,76 @@
+:root {
+    --c1: #29B6F6; /*lateral, dos, cuatro*/
+    --c2: #B7D968; /*fila1, segundo*/
+    --c3: #B576AD; /*uno, tres*/
+    --c4: #E04644; /*primero, tercero*/
+    --c5: #FDE47F; /*numero1, numero2*/
+    --c6: #FF5722; /*primero2, siguiente*/
+}
+
+
+
+#contenido{
+	width: auto;
+	height: auto;
+
+}
+
+#lateral{
+	height:600px;
+	width: 510px;
+	background-color: var(--c1);
+	float: left;
+}
+
+#fila1{
+	background-color: var(--c2);
+	height:110px;
+
+}
+
+#fila2{
+	background-color: var(--c3);
+	height:200px;
+	position: relative;
+	margin-left: 7px;
+	
+}
+
+#fila3{
+	background-color: var(--c4);
+	height:150px;
+	
+}
+
+#fila4{
+	background-color: var(--c5);
+	height:140px;
+	
+}
+#container{
+	max-width: 1980px;
+
+}
+
+#dos, #cuatro{
+	background-color: var(--c1);;
+}
+
+#segundo{
+	background-color: var(--c2);
+}
+
+#numero1{
+	background-color: var(--c3)
+}
+
+#selector{
+	float: left;
+}
+#primero2, #siguiente{
+	background-color: var(--c6)
+}
+
+#botones{
+margin: 6px
+}

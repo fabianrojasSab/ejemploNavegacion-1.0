@@ -1,0 +1,29 @@
+#contenedor{
+	width: 96vw;
+	height: 90vh;
+}	
+
+#pie{
+	height: 60px;
+	background-color: #000fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#pie>button{
+	display: inline-block;
+	width: 10%;
+	float: left;
+	margin: 0 5px;
+	font-weight: bold;
+
+}
+
+#pie>select{
+	display: inline-block;
+	width: 20%;
+	float: left;
+	margin: 0 5px;
+
+}
+

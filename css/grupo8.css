@@ -1,0 +1,50 @@
+:root{
+    --c1: #69D2E7; /* barra titulo*/  
+    --c2: #A7DBD8; /* barra botones*/ 
+    --c3: #E0E4CC; /* cuadros centro*/ 
+    --c4: #F38630; /* barra pie*/ 
+    --c5: #DB5C40; /* containe y botones*/ 
+}
+
+
+.container-fluid{
+     width: 100vw;
+     height: 100vh;
+     background-color: var( --c5);
+}
+
+.x{
+	height: 17vh;
+	background-color: var( --c1);
+}
+
+.y{
+	height: 13vh;
+	background-color: var( --c2);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container{
+	height: 60vh;
+	background-color: var( --c1);
+}
+
+
+.col-4{
+	border: 5px solid var( --c3);
+	height: 30vh;
+}
+
+.pie{
+	background-color: var( --c4);
+	height: 8vh;
+}
+
+#selector{
+	width: 150px;
+	display: inline-block;
+	font-weight: bold;
+}
+

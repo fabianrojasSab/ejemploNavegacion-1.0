@@ -1,0 +1,95 @@
+:root {
+	--c1:  #0551AB;
+	--c2:  #840000;
+	--c3:  #7CCCE5;
+	--c4:  #B576AD;
+	
+}
+
+
+
+
+
+
+.container-fluid{
+	height: 98vh;
+	width: 98vw;
+	border: 5px ;
+    background-color: white;
+	padding: 7%; 
+	
+
+}
+.col-12{
+	margin-bottom: 30px;
+	height: 7vh;
+	width: 87vw;
+	background-color: var( --c1);
+	padding: 1%;
+	border: 1px solid white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.col-3{
+	height: 13vh;
+	background-color: var( --c3);
+	padding: 1%;	
+	border: 1px solid white;
+	
+}
+.yy{
+	margin: 20px 50px 0px 85px;
+	
+	height: 10vh;
+	background-color: var( --c2);
+	padding: 1%;	
+	border: 1px solid white;
+
+}
+.xy{
+	margin-bottom: 30px;
+	height: 15vh;
+	background-color: var( --c3);
+	padding: 1%;	
+	border: 1px solid white;
+
+
+}
+.col-2{
+	height: 13vh;
+	background-color: var( --c4);
+	padding: 1%;
+	border: 1px solid white;
+	color: 
+}
+.lienas{
+	
+	background-color: #840000;
+	padding: 1%;
+	border: 1px solid white;
+	
+}
+.lineas2{
+	background-color: #840000;
+	padding: 1%;
+	border: 1px solid white;
+	
+}
+.col-6{
+	padding: 2%;
+}
+.col-1{
+	padding: 2%;
+}
+#selector{
+	width: 150px;
+	display: inline-block;
+
+}
+
+.btn{
+	margin: 3px;
+	width: 100px;
+}

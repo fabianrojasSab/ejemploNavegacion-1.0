@@ -1,0 +1,67 @@
+:root {
+    --c1:#B0B4A5;
+    --c2:#C8CCB2;
+    --c3:#ECEFC5;
+    --c4:#EFE0B2;
+    --c5:#EACBA9;
+   }
+
+
+#color1{
+	background-color: var(--c1);
+
+}
+
+#color2{
+	background-color: var(--c2);
+	
+
+}
+
+#color3{
+	background-color: var(--c3);
+	
+
+}
+
+#color4{
+	background-color: var(--c4);
+	
+
+}
+
+#color5{
+	background-color: var(--c5);
+	
+
+}
+
+#barra1{
+	height: 10%;
+}
+
+#barra2{
+	height: 50%;
+}
+
+#barra3{
+	height: 25%;
+}
+
+#barra4{
+	height: 25%;
+}
+
+#barra5{
+	height: 10%;
+}
+
+#barra6{
+	height: 80%
+}
+
+.y{
+	height: 13vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;

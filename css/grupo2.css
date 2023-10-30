@@ -1,0 +1,61 @@
+/*formato colores*/
+:root {
+	--c1:#594F4F; /* fila1, color3, color4*/
+	--c2:#547980; /* fila2 */
+	--c3:#45ADA8; /* fila3 */
+	--c4:#9DE0AD; /* fila4 */
+	--c5:#53777A; /* fila5 */
+}
+#fila1{
+
+	background-color: var(--c1);
+	height: 100px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#selector{
+	width: 150px;
+	display: inline-block;	
+	font-weight: bold;
+}
+
+#fila2{
+	background-color: var(--c2);
+	height: 262px;
+}
+#fila3{
+	background-color: var(--c3);
+	height: 100px;
+}
+#color3{
+	background-color: var(--c1);
+}
+#fila4{
+	background-color: var(--c4);
+	height: 100px;
+}
+#color4{
+	background-color: var(--c1);
+}
+#fila5{
+	background-color: var(--c5);
+	height: 100px;
+}
+#fila1texto, #fila2texto, #fila3texto, #fila4texto, #fila5texto{
+	color: #ffffff;
+
+}
+#fila1, #fila2, #fila3, #fila4, #fila5, #color3, #color4{
+	/*border-color: #000000;
+	border: 3px;
+	border-style: solid;*/
+}
+
+.container{
+	max-width: 1369px;
+}
+
+
+

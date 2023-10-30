@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Equipo5</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/plantilla.css">
+	<link rel="stylesheet" type="text/css" href="css/grupo1.css">
+	<link rel="stylesheet" type="text/css" href="css/grupo2.css">
+	<link rel="stylesheet" type="text/css" href="css/grupo3.css">
+	<link rel="stylesheet" type="text/css" href="css/grupo4.css">
+	<link rel="stylesheet" type="text/css" href="css/grupo5.css">
+	<link rel="stylesheet" type="text/css" href="css/grupo6.css">
+	<link rel="stylesheet" type="text/css" href="css/grupo7.css">
+	<link rel="stylesheet" type="text/css" href="css/grupo8.css">
+
+</head>
+<body>
+	<div class="" id="contenedor">
+    	 		
+    </div>
+ 	<div  id="pie">
+ 			<button class="btn " type="submit">Primero</button>
+			<button class="btn " type="submit">Anterior</button>
+			<select id="selector" class="form-control">
+		        <option selected>seleccionar</option>
+		        <option>Página 1</option>
+		        <option>Página 2</option>
+		        <option>Página 3</option>
+		        <option>Página 4</option>
+		        <option>Página 5</option>
+		        <option>Página 6</option>
+		        <option>Página 7</option>
+		        <option>Página 8</option>
+		      </select>
+			<button class="btn " type="submit">Siguiente</button>
+			<button class="btn " type="submit" onclick="cargarplantilla('pantalla2')">Ultimo</button>
+ 	</div>
+	<template id="pantalla1">
+		<div class="row">
+ 			<div id="fila1" class="col-3"><h2>Column 1</h2></div>
+ 			<div id="fila2" class="col-9"><h2>Column 2</h2></div>
+		</div>
+		<div class="row">
+			</div>
+		<div id="fila3" class="col-12"><h2>Column 3</h2></div>	
+	</template>
+
+	<template id="pantalla2">
+		<div class="row">
+				<div id="fila1" class="col-12"><h2 id="fila1texto"></h2>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div id="fila2" class="col-12"><h2 id="fila2texto">fila2</h2></div>	
+			</div>
+			<div class="container">
+				<div class="row">
+					<div id="fila3" class="col-3"><h2 id="fila3texto">fila3</div>
+					<div id="color3" class="col-3"><h2 id="fila3texto">color3</div>
+					<div id="fila3" class="col-3"><h2 id="fila3texto">fila3</div>
+					<div id="color3" class="col-3"><h2 id="fila3texto">color3</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div id="color4" class="col-3"><h2 id="fila4texto">color4</h2></div>
+					<div id="fila4" class="col-3"><h2 id="fila4texto">fila4</h2></div>
+					<div id="color4" class="col-3"><h2 id="fila4texto">color4</h2></div>
+					<div id="fila4" class="col-3"><h2 id="fila4texto">fila4</h2></div>
+				</div>
+			</div>
+	</template>
+
+	<template id="pantalla3">
+		 <div class="row">
+            <div class="cabeza col-12">
+              
+            </div>           
+         
+           <div class=" contenido row">
+           <div class="izq col-2"></div>
+           <div class="col-8"></div>
+           <div class="der col-2"></div>
+         </div>
+         <div class="pie col-12"></div>
+
+	</template>
+
+	<template id="pantalla4">
+		<div class="row">
+			<div class="col-12"></div>
+		</div>
+
+		<div class="row">
+			<div class="xy col-3"><H1>lOL</H1></div>
+			<div class="yy col-6"><H5>LOL</H5></div>
+			<div class="col-2"><H5>LOL</H5></div>
+		</div>
+		<div class="row">
+			<div class="col-3"><h5>lol</h5></div>
+			<div class="col-1">
+				<div class="lienas row"><h5>lol</h5></div>
+				<div class="lienas row"><h5>lol</h5></div>
+			</div>
+			<div class="col-6">
+				<div class="lienas row"><h5>hola mundo</h5></div>
+				<div class="lienas row"><h5>hola mundo</h5></div>
+						</div>
+			<div class="col-2"><h5>lol</h5></div>
+
+		</div>
+		<div class="row">
+			<div class="col-3"><h5>lol</h5>
+			</div>
+			<div class="col-1">
+				<div class="lineas2 row"><h5>lol</h5></div>
+				<div class="lineas2 row"><h5>lol</h5></div>
+			</div>
+			<div class="col-6">
+				<div class="lineas2 row"><h5>hola mundo</h5></div>
+				<div class="lineas2 row"><h5>hola mundo</h5></div>
+						</div>
+			<div class="col-2"><h5>lol</h5></div>
+			<div class="row">
+				<div class="xx col-12"><h80>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum obcaecati laborum deleniti, itaque earum possimus laudantium maiores commodi, nulla, accusantium consequuntur animi laboriosam aliquam dignissimos vero illum voluptate ipsa saepe.</h80></div>
+			</div>
+			</div>    
+	</template>
+
+	<template id="pantalla5">
+		<div class="row" id="cabeza">
+     		<div class="col-12 "><h1>Titulo</h1></div>
+     	</div>
+     	<div class="row" id="cabeza2">
+     		<div class="y col-12">
+     			
+     		</div>
+     	</div>
+     	<div class="container-fluid" id="pera">
+     		<div class="row" id="pera2">
+     			<div class="col-4" id="col1"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ad excepturi saepe autem libero, maiores quibusdam iusto omnis tempore nisi, aut rem qui. Soluta doloribus perferendis molestiae pariatur delectus, aperiam!</p></div>
+     			<div class="col-4 " id="col2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id perferendis tempore iure tempora odit, laborum earum ab animi, debitis, corporis incidunt. Omnis ea doloremque nemo nulla quas alias, quis est.</p></div>
+     			<div class="col-4" id="col3"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero veniam et, quidem nostrum dolorum sequi harum pariatur illo nobis voluptatum, molestias, assumenda odit dolores asperiores rerum in maxime at accusantium.</p></div>
+     		</div>
+     	</div>
+     	<div class="row " id="pie"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ratione esse soluta consequuntur molestiae suscipit quasi, fuga necessitatibus quo doloribus repellat nostrum eaque mollitia dolore expedita, explicabo quos, non culpa!</p></div>
+      </div>
+	</template>
+
+	<template id="pantalla6">
+		<div class="row" id="barra1">
+          <div class="col-12" id="color1">
+           <div class="y col-12">
+
+          </div>
+              </div>
+        </div>
+
+              <div class="container-fluid" id="barra6">
+                <div class="row" id="barra2">
+                  <div class="col-8" id="color2"></div>
+                  <div class="col-4" id="color5"></div>
+                </div>
+
+                <div class="row" id="barra3">
+                  <div class="col-3" id="color1"></div>
+                  <div class="col-3" id="color5"></div>
+                  <div class="col-3" id="color1"></div>
+                  <div class="col-3" id="color2"></div>
+                </div>
+
+                <div class="row" id="barra4">
+                  <div class="col-2" id="color3"></div>
+                  <div class="col-2" id="color2"></div>
+                  <div class="col-2" id="color3"></div>
+                  <div class="col-2" id="color5"></div>
+                  <div class="col-2" id="color4"></div>
+                  <div class="col-2" id="color3"></div>
+                </div>
+              </div>
+
+              <div class="row" id="barra5">
+                    <div class="col-12" id="color1"></div>
+                  </div>  
+	</template>
+
+	<template id="pantalla7">
+		<div id="izquierda">
+			<div id="lateral" class="col-3"><h2>lateral</h2></div>
+		</div>
+		<div id="derecha">
+			<div id="container">
+				<div class="row">
+					<div id="fila1" class="col-12"><h2>fila1</h2></div>
+				</div>
+				<div id="fila2" class="row">
+					<div id="uno" class="col-3"><h2>uno</h2></div>
+					<div id="dos" class="col-3"><h2>dos</h2></div>
+					<div id="tres" class="col-3"><h2>tres</h2></div>
+					<div id="cuatro" class="col-3"><h2>cuatro</h2></div>
+				</div>
+				<div id="fila3" class="row">
+					<div id="primero" class="col-4"><h2>primero</h2></div>
+					<div id="segundo" class="col-4"><h2>segundo</h2></div>
+					<div id="tercero" class="col-4"><h2>tercero</h2></div>
+				</div>
+				<div id="fila4" class="row">
+					<div id="numero1" class="col-6"><h2>numero1</h2></div>
+					<div id="numero2" class="col-6"><h2>numero2</h2></div>
+
+				</div>
+			</div>
+		</div>
+	</template>
+
+	<template id="pantalla8">
+		<div class="row">
+			<div class="x col-12"></div>
+		</div>
+		<div class="row">
+			<div class="y col-12">
+
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. </div>
+				<div class="col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur.</div>
+				<div class="col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur.</div>
+			</div>
+			<div class="row">
+				<div class="col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur.</div>
+				<div class="col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur.</div>
+				<div class="col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur.</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="pie col-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur.</div>
+		</div>
+		</div>
+	</template>
+	<script type="text/javascript" src="js/plantilla.js"></script>
+</body>
+</html>

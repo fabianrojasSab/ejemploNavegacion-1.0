@@ -1,0 +1,55 @@
+:root{
+	--c1: #F0D8A8;	/*color del encabezado*/
+	--c2: #3D1C00;	/*color  der*/
+	--c3: #86B8B1;	/*color izq*/
+	--c4: #F38630;	/*color col-8*/
+	--c5: #FA2A00; 	/*color pie*/
+}
+
+
+
+
+.container{
+	height: 98vh;
+	width: 70vw;
+	border: solid 1px;
+	margin-top: 2%;
+	background-color: #FCEBB6;
+}
+.row{
+	height: 13%;
+	width: 98%;
+	padding: .5%;
+	margin: auto;
+}
+.cabeza{
+	background-color: var(--c1); 
+	text-align:center;
+	
+}
+.contenido{
+	height: 70%;
+
+}
+.izq{
+	background-color: var(--c2);
+}
+.der{
+	background-color: var(--c3);
+}
+.col-8{
+	background-color: var(--c4);
+}
+
+.pie{
+	height: 13%;
+	width: 97%;
+	margin: auto;
+	background-color: var(--c5);
+}
+
+#selector{
+	width: 150px;
+	display: inline-block;
+	font-weight: bold;
+}
